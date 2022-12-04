@@ -3,8 +3,6 @@ import torch.nn as nn
 import numpy as np
 import sys
 
-TRAIN_MEAN = 123456
-
 class VGG(nn.Module):
     def __init__(self, 
                  config='D',
